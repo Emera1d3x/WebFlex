@@ -1,0 +1,19 @@
+{
+    "name": "Webflex",
+    "description": "Allows you to drag website elements around to your liking!",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "app.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "WebFlex",
+        "default_icon": "128.png"
+    }
+}

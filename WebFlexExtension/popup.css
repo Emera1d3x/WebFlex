@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #001532;
+    border: solid #001532;
+    border-radius: 10px;
+}
+
+.card {
+    height: 350px; /* Adjusted height to fit content */
+    width: 200px; /* Adjusted width for better content layout */
+    border-radius: 10px;
+    background-color: #00b2ff;
+    color: white;
+    border: solid #001532;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering the content */
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+.card-image {
+    border-radius: 10px;
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.innercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #001532;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.innercard2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+
+.main-text {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.main-text2 {
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.footer-text {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #001532;;
+    text-decoration: none;
+    border: 1px solid #001532;;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.link:hover {
+    background-color: #001532;
+    color: white;
+}
+
+/* Custom Alert Styles */
+/* Custom Alert Styles */
+#customAlert {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center the alert */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, top 0.3s ease;
+}
+
+#customAlert.show {
+    display: block;
+    opacity: 1;
+    top: 50%; /* Keep it centered vertically */
+}
+
+.alertButton {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background-color: #00b2ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.alertButton:hover {
+    background-color: #0099cc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
