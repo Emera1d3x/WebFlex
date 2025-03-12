@@ -1,7 +1,7 @@
 {
     "name": "Webflex",
     "description": "Allows you to drag website elements around to your liking!",
-    "version": "0.0.0.1",
+    "version": "0.0.0.2",
     "manifest_version": 3,
     "content_scripts": [
         {
