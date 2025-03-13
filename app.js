@@ -83,7 +83,7 @@ function mouseDown(e) {
         });
         highestZIndex++;
         currentElement.style.zIndex = highestZIndex; 
-        currentElement.style.position = "fixed";
+        currentElement.style.position = "absolute";
         currentElement.style.boxSizing = "border-box";
         currentElement.style.width = rect.width + "px";
         currentElement.style.height = rect.height + "px";
